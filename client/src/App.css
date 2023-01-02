@@ -1,0 +1,87 @@
+
+
+body {
+  width: 50%;
+  margin: 0 auto;
+  background-image: url("./cool-background.png");
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 100px;
+  color: #050505;
+  font-weight: 200;
+}
+
+input {
+  font-size: 20px;
+  color: #000000;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000000;
+  padding: 5px;
+}
+
+.task {
+  background-color: #515151;
+  padding: 15px;
+  margin: 7px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow:  0 0 0 2px rgb(255, 191, 191);
+}
+
+.task span {
+  color:whitesmoke;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: whitesmoke;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  box-shadow:  0 0 0 2px rgb(198, 254, 196);
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px ;
+  margin-top: 15px;
+}
+
+.button.selected {
+  color: rgb(255, 255, 255);
+  background-color: #6c6777;
+
+}
+
+.button.clear {
+  float: right;
+  color: rgb(255, 255, 255);
+  background-color: #ee1630;
+  width: 170px;
+  box-shadow:  0 0 0 2px rgb(255, 5, 5);
+}
