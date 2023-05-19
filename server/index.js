@@ -15,6 +15,9 @@ app.use(bodyParser.json({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }))
 
 app.use('/', Routes);
+app.get('/',(req,res)=>{
+          res.json('hello')
+})
 
 const PORT = process.env.PORT || 8000;
 
