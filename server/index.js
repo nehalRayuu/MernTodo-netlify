@@ -4,6 +4,7 @@ import bodyParser from 'body-parser';
 
 import Connection from './database/db.js';
 import Routes from './routes/route.js';
+import dotenv from 'dotenv'
 dotenv.config();
 
 const app = express();
